@@ -1,0 +1,4 @@
+"component_id","weight"
+"original_xgboost",0.333333333333333
+"smote_ann",0.333333333333333
+"weighted_xgboost",0.333333333333333

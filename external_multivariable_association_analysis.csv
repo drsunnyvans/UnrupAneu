@@ -1,3 +1,0 @@
-"analysis_variable","source_variable","variable_label","adjusted_odds_ratio","ci_lower","ci_upper","p_value","model_n","model_events","model_formula"
-"aneurysm_size_per_5mm","aneurysm_size_mm","Primary aneurysm size (per 5-mm increase)",4.01353831405603,1.30010941650122,12.3901031666596,0.015677370563667,50,6,"severe_outcome ~ aneurysm_size_per_5mm + ckd"
-"ckd","ckd","Chronic kidney disease",11.7484130573868,1.14001108060978,121.07356824387,0.0384427257838691,50,6,"severe_outcome ~ aneurysm_size_per_5mm + ckd"

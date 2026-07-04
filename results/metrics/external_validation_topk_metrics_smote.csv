@@ -1,0 +1,16 @@
+"model_name","dataset","top_k","proportion_flagged","n_flagged","events_captured","event_rate","recall","ppv","lift"
+"ann","external_validation_smote","top_5_pct",0.05,3,1,0.333333333333333,0.166666666666667,0.333333333333333,2.77777777777778
+"ann","external_validation_smote","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"ann","external_validation_smote","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667
+"elastic_net","external_validation_smote","top_5_pct",0.05,3,0,0,0,0,0
+"elastic_net","external_validation_smote","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"elastic_net","external_validation_smote","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667
+"knn","external_validation_smote","top_5_pct",0.05,3,0,0,0,0,0
+"knn","external_validation_smote","top_10_pct",0.1,5,0,0,0,0,0
+"knn","external_validation_smote","top_20_pct",0.2,10,0,0,0,0,0
+"random_forest","external_validation_smote","top_5_pct",0.05,3,1,0.333333333333333,0.166666666666667,0.333333333333333,2.77777777777778
+"random_forest","external_validation_smote","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"random_forest","external_validation_smote","top_20_pct",0.2,10,1,0.1,0.166666666666667,0.1,0.833333333333333
+"xgboost","external_validation_smote","top_5_pct",0.05,3,0,0,0,0,0
+"xgboost","external_validation_smote","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"xgboost","external_validation_smote","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667

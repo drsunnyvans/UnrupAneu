@@ -1,2 +1,0 @@
-"primary_model_weighted_asa","internal_pr_auc","internal_roc_auc","internal_brier_score","internal_calibration_slope","top10_recall","top10_ppv","top10_lift"
-"xgboost",0.277079920987497,0.649643705463183,0.206718882495987,1.04973096589795,0.25,0.346938775510204,2.49489795918367

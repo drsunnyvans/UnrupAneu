@@ -1,2 +1,0 @@
-"primary_model_smote_asa","internal_pr_auc","internal_roc_auc","internal_brier_score","internal_calibration_slope","top10_recall","top10_ppv","top10_lift"
-"elastic_net",0.251403714452122,0.551522984490708,0.127163645250981,0.0446807434736315,0.205882352941176,0.285714285714286,2.0546218487395

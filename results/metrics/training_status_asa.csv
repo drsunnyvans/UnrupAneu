@@ -1,0 +1,6 @@
+"model_name","status","message","best_pr_auc","best_roc_auc","best_tuning"
+"elastic_net","trained","Cross-validation completed",0.213304228501787,0.527248601053324,"alpha=1; lambda=0.01"
+"random_forest","trained","Cross-validation completed",0.290691718338019,0.606399152402897,"mtry=18"
+"xgboost","trained","Cross-validation completed",0.279524038493264,0.614035755431205,"nrounds=100; max_depth=2; eta=0.05; subsample=0.8; colsample_bytree=0.8"
+"knn","trained","Cross-validation completed",0.242995926594585,0.560684455233706,"k=7"
+"ann","trained","Cross-validation completed",0.252093833827871,0.607841816161949,"size=3; decay=1e-04"

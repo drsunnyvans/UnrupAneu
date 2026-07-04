@@ -1,0 +1,10 @@
+"model_name","dataset","top_k","proportion_flagged","n_flagged","events_captured","event_rate","recall","ppv","lift"
+"stacked_logistic","external_validation_ensemble","top_5_pct",0.05,3,1,0.333333333333333,0.166666666666667,0.333333333333333,2.77777777777778
+"stacked_logistic","external_validation_ensemble","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"stacked_logistic","external_validation_ensemble","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667
+"soft_vote_equal","external_validation_ensemble","top_5_pct",0.05,3,1,0.333333333333333,0.166666666666667,0.333333333333333,2.77777777777778
+"soft_vote_equal","external_validation_ensemble","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"soft_vote_equal","external_validation_ensemble","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667
+"soft_vote_pr_weighted","external_validation_ensemble","top_5_pct",0.05,3,1,0.333333333333333,0.166666666666667,0.333333333333333,2.77777777777778
+"soft_vote_pr_weighted","external_validation_ensemble","top_10_pct",0.1,5,1,0.2,0.166666666666667,0.2,1.66666666666667
+"soft_vote_pr_weighted","external_validation_ensemble","top_20_pct",0.2,10,2,0.2,0.333333333333333,0.2,1.66666666666667

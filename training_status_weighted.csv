@@ -1,6 +1,0 @@
-"model_name","status","message","best_pr_auc","best_roc_auc","best_tuning"
-"elastic_net","trained","Cross-validation with class weights completed",0.277977903884683,0.606938672646478,"alpha=1; lambda=0.1; use_weights=TRUE"
-"random_forest","trained","Cross-validation with class weights completed",0.159068091567589,0.499375617182357,"mtry=16; use_weights=TRUE"
-"xgboost","trained","Cross-validation with class weights completed",0.241760340210058,0.574930052666228,"nrounds=100; max_depth=2; eta=0.05; subsample=0.8; colsample_bytree=0.8; use_weights=TRUE"
-"knn","failed","Weighted training is not implemented for knn.",,,
-"ann","trained","Cross-validation with class weights completed",0.22282068458667,0.552679600065833,"size=3; decay=0.001; use_weights=TRUE"

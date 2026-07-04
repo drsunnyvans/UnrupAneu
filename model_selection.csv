@@ -1,2 +1,0 @@
-"primary_model","internal_pr_auc","internal_roc_auc","internal_brier_score","internal_calibration_slope","top10_recall","top10_ppv","top10_lift"
-"xgboost",0.259218187820081,0.625157188766243,0.115127267277363,0.827447281706806,0.191176470588235,0.26530612244898,1.9078631452581
