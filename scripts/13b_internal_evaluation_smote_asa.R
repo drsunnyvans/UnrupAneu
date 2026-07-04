@@ -1,0 +1,5 @@
+root <- normalizePath(file.path(getwd()), winslash = "/", mustWork = FALSE)
+source(file.path(root, "R", "utils.R"))
+initialize_r_library_paths()
+source(file.path(root, "R", "asa_sensitivity.R"))
+run_internal_evaluation_arm(root, dataset_tag = "asa", analysis_tag = "smote_asa", use_smote = TRUE, use_weights = FALSE, stage_label = "13b Internal Evaluation With SMOTE And ASA")

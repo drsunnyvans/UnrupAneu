@@ -1,0 +1,6 @@
+model_name,caret_method,required_packages,enabled,notes
+elastic_net,glmnet,"caret;glmnet",TRUE,Elastic net logistic regression baseline
+random_forest,rf,"caret;randomForest",TRUE,Random forest benchmark
+xgboost,xgbTree,"caret;xgboost",TRUE,XGBoost benchmark
+knn,knn,"caret",TRUE,k-nearest neighbors benchmark
+ann,nnet,nnet,TRUE,Single-hidden-layer artificial neural network benchmark

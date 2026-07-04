@@ -1,0 +1,28 @@
+canonical_name,development_var,external_var,feature_type,transform,include_in_model,notes
+age,age,age,numeric,identity,TRUE,Continuous age in years
+sex,sex,sex,categorical,sex,TRUE,Canonicalized to Female or Male
+race,race,race,categorical,race,TRUE,Harmonized into broad race groups
+admission_source,transt,admission_source,categorical,admission_source,TRUE,External extra detail retained only descriptively
+elective_surgery,electsurg,elective_surgery,binary,binary_yes_no,TRUE,Planned elective procedure status
+functional_status,fnstatus2,functional_status,categorical,functional_status,TRUE,Independent versus dependent status
+diabetes,diabetes,diabetes,binary,diabetes_binary,TRUE,Any diabetes versus none
+smoking,smoke,smoking_status,binary,binary_yes_no,TRUE,Current smoking status
+dyspnea,dyspnea,dyspnea,binary,binary_yes_no,TRUE,Dyspnea present or absent
+copd,hxcopd,copd,binary,binary_yes_no,TRUE,Chronic obstructive pulmonary disease
+heart_failure,hxchf,chf,binary,binary_yes_no,TRUE,History of congestive heart failure
+dialysis,dialysis,dialysis,binary,binary_yes_no,TRUE,Dialysis dependence
+active_malignancy,discancr,active_malignancy,binary,binary_yes_no,TRUE,Active malignancy
+coagulopathy,bleeddis,coagulopathy,binary,binary_yes_no,TRUE,Bleeding disorder or coagulopathy
+asa_class,asaclas,asa_class,categorical,asa_class,TRUE,ASA class sensitivity variable
+bmi,BMI,bmi,numeric,identity,TRUE,Body mass index
+sodium,prsodm,sodium,numeric,identity,TRUE,Serum sodium
+bun,prbun,bun,numeric,identity,TRUE,Blood urea nitrogen
+creatinine,prcreat,creatinine,numeric,identity,TRUE,Serum creatinine
+albumin,pralbum,albumin,numeric,identity,TRUE,Serum albumin
+bilirubin,prbili,bilirubin,numeric,identity,TRUE,Serum bilirubin
+ast,prsgot,ast,numeric,identity,TRUE,Aspartate aminotransferase
+alk_phos,pralkph,alk_phos,numeric,identity,TRUE,Alkaline phosphatase
+wbc,prwbc,wbc,numeric,identity,TRUE,White blood cell count
+platelets,prplate,platelets,numeric,identity,TRUE,Platelet count
+ptt,prptt,ptt,numeric,identity,TRUE,Partial thromboplastin time
+inr,prinr,inr,numeric,identity,TRUE,International normalized ratio

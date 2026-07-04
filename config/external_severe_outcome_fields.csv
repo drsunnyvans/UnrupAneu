@@ -1,0 +1,14 @@
+field_name,positive_value,description
+death,1,Death within 30 days
+cva,1,Cerebrovascular accident
+new_neuro_deficit,1,New neurological deficit
+return_to_or,1,Return to operating room
+mi,1,Myocardial infarction
+cardiac_arrest,1,Cardiac arrest
+coma,1,Coma
+pe,1,Pulmonary embolism
+dialysis,1,Dialysis after intervention
+renal_insufficiency,1,Renal insufficiency
+reintubation,1,Reintubation
+vent_failure_48h,1,Prolonged ventilatory failure
+septic_shock,1,Septic shock

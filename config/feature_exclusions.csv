@@ -1,0 +1,80 @@
+scope,rule_type,rule_value,reason
+development,exact,caseid,Identifier should never enter modeling
+development,exact,pufyear,Calendar extraction year not intended as a predictor
+development,exact,dischdest,Post-operative leakage
+development,exact,anesthes,Peri-operative variable excluded by plan
+development,exact,optime,Post-operative or intra-operative leakage
+development,exact,tothlos,Post-operative leakage
+development,exact,admqtr,Administrative timing variable not modeled
+development,exact,htooday,Post-operative leakage
+development,exact,returnor,Post-operative leakage
+development,exact,doptodis,Post-operative leakage
+development,exact,asaclas,Aggregate risk score explicitly excluded
+development,exact,mortprob,Model-generated risk score excluded
+development,exact,morbprob,Model-generated risk score excluded
+development,exact,height,Raw height excluded because BMI retained
+development,exact,weight,Raw weight excluded because BMI retained
+development,exact,ventilat,Unavailable in external harmonized modeling set
+development,exact,ascites,Unavailable in external harmonized modeling set
+development,exact,hypermed,Mismatch with external hypertension coding kept descriptive only
+development,exact,renafail,Mismatch with external CKD definition kept descriptive only
+development,exact,wndinf,Potential active infection variable not carried into harmonized set
+development,exact,steroid,External immunosuppression mismatch kept descriptive only
+development,exact,wtloss,Unavailable in external harmonized modeling set
+development,exact,transfus,Potentially peri-operative and excluded
+development,exact,prsepis,Excluded to avoid active sepsis leakage concerns
+development,exact,prhct,Unavailable in external harmonized modeling set
+development,exact,dindo_scores,Outcome source column not a predictor
+development,pattern,^proc_proc[0-9]+_cpt[0-9]+$,CPT procedure fields explicitly excluded
+development,pattern,^cpt_proc[0-9]+_cpt[0-9]+$,CPT code fields explicitly excluded
+external,exact,id,Identifier should never enter modeling
+external,exact,asa_class,Aggregate risk score explicitly excluded
+external,exact,preop_demographics_labs_complete,Completeness flag excluded
+external,exact,medical_comorbidities_complete,Completeness flag excluded
+external,exact,aneurysm_characteristics_complete,Completeness flag excluded
+external,exact,procedure_details_complete,Completeness flag excluded
+external,exact,postop_outcomes_complete,Completeness flag excluded
+external,exact,procedure_type,Procedure detail retained for description only
+external,exact,endovascular,Procedure detail retained for description only
+external,exact,procedure_duration_min,Peri-operative variable excluded
+external,exact,reop,Post-operative outcome variable excluded
+external,pattern,^reop_type___[0-9]+$,Post-operative detail excluded
+external,pattern,^presenting_symptoms___[0-9]+$,External-only descriptive detail excluded
+external,pattern,^aneurysm_side(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,pattern,^aneurysm_location(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,pattern,^aneurysm_size_mm(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,pattern,^neck_width_mm(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,pattern,^aneurysm_morphology_type(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,pattern,^irregular_morphology(_[0-9]+)?$,External-only descriptive aneurysm detail excluded
+external,exact,hypertension,Retained for cohort description only because coding mismatch with development file
+external,exact,hyperlipidemia,External-only descriptive comorbidity
+external,exact,cad,External-only descriptive comorbidity
+external,exact,prior_mi,External-only descriptive comorbidity
+external,exact,atrial_fibrillation,External-only descriptive comorbidity
+external,exact,pvd,External-only descriptive comorbidity
+external,exact,prior_stroke_tia,External-only descriptive comorbidity
+external,exact,osa,External-only descriptive comorbidity
+external,exact,ckd,External-only descriptive comorbidity
+external,exact,connective_tissue_disorder,External-only descriptive comorbidity
+external,exact,immunosuppression,External-only descriptive comorbidity
+external,exact,aneurysm_multiple_indicato,External-only descriptive aneurysm detail
+external,exact,renal_insufficiency,Post-operative outcome variable excluded
+external,exact,superficial_ssi,Post-operative outcome variable excluded
+external,exact,deep_ssi,Post-operative outcome variable excluded
+external,exact,organ_space_ssi,Post-operative outcome variable excluded
+external,exact,pneumonia,Post-operative outcome variable excluded
+external,exact,uti,Post-operative outcome variable excluded
+external,exact,c_diff,Post-operative outcome variable excluded
+external,exact,sepsis,Post-operative outcome variable excluded
+external,exact,septic_shock,Post-operative outcome variable excluded
+external,exact,dvt,Post-operative outcome variable excluded
+external,exact,pe,Post-operative outcome variable excluded
+external,exact,reintubation,Post-operative outcome variable excluded
+external,exact,vent_failure_48h,Post-operative outcome variable excluded
+external,exact,mi,Post-operative outcome variable excluded
+external,exact,cardiac_arrest,Post-operative outcome variable excluded
+external,exact,cva,Post-operative outcome variable excluded
+external,exact,new_neuro_deficit,Post-operative outcome variable excluded
+external,exact,coma,Post-operative outcome variable excluded
+external,exact,return_to_or,Post-operative outcome variable excluded
+external,exact,death,Post-operative outcome variable excluded

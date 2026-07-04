@@ -1,0 +1,6 @@
+root <- normalizePath(file.path(getwd()), winslash = "/", mustWork = FALSE)
+source(file.path(root, "R", "utils.R"))
+initialize_r_library_paths()
+source(file.path(root, "R", "asa_sensitivity.R"))
+run_external_validation_arm(root, dataset_tag = "asa", analysis_tag = "asa", stage_label = "14 External Validation With ASA")
+write_asa_sensitivity_summary(root)

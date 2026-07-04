@@ -1,0 +1,5 @@
+root <- normalizePath(file.path(getwd()), winslash = "/", mustWork = FALSE)
+source(file.path(root, "R", "utils.R"))
+initialize_r_library_paths()
+source(file.path(root, "R", "asa_sensitivity.R"))
+run_train_benchmarks_arm(root, dataset_tag = "asa", analysis_tag = "weighted_asa", use_smote = FALSE, use_weights = TRUE, stage_label = "12c Train Benchmarks With Class Weights And ASA")

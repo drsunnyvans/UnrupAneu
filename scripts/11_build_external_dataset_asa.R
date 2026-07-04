@@ -1,0 +1,5 @@
+root <- normalizePath(file.path(getwd()), winslash = "/", mustWork = FALSE)
+source(file.path(root, "R", "utils.R"))
+initialize_r_library_paths()
+source(file.path(root, "R", "asa_sensitivity.R"))
+build_external_dataset_with_mapping(root, "feature_mapping_asa.csv", "asa", "11 Build External Dataset With ASA")

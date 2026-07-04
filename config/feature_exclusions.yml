@@ -1,0 +1,31 @@
+development_exclusions:
+  identifiers:
+    - caseid
+    - pufyear
+  aggregate_scores:
+    - asaclas
+    - mortprob
+    - morbprob
+  post_op_or_peri_op:
+    - dischdest
+    - anesthes
+    - optime
+    - tothlos
+    - htooday
+    - returnor
+    - doptodis
+  cpt_patterns:
+    - "^proc_proc[0-9]+_cpt[0-9]+$"
+    - "^cpt_proc[0-9]+_cpt[0-9]+$"
+external_exclusions:
+  identifiers:
+    - id
+  aggregate_scores:
+    - asa_class
+  completeness_flags:
+    - preop_demographics_labs_complete
+    - medical_comorbidities_complete
+    - aneurysm_characteristics_complete
+    - procedure_details_complete
+    - postop_outcomes_complete
+  note: Extra external variables may still be summarized descriptively even when excluded from modeling.

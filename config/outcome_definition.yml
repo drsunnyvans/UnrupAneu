@@ -1,0 +1,9 @@
+development_outcome:
+  source_column: dindo_scores
+  rule: severe_outcome = dindo_scores >= 3
+  positive_label: Yes
+  negative_label: No
+external_validation_outcome:
+  rule: severe_outcome_external = any(prespecified severe post-operative events)
+  supporting_config: config/external_severe_outcome_fields.csv
+  note: External validation uses a prespecified severe-event composite because Dindo-Clavien is not present.
